@@ -1,11 +1,12 @@
 {
-  "name": "truthsync",
+  "name": "capapp",
   "version": "1.0.0",
-  "description": "Discord fact-check bot using Google Fact Check API + Perplexity AI, fully Railway environment-based.",
+  "description": "CapApp — Discord fact-check bot using Google Fact Check API + Perplexity AI, Railway-ready.",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.16.2",
@@ -23,6 +24,6 @@
     "perplexity",
     "google-factcheck"
   ],
-  "author": "Higher-er Learning",
+  "author": "CapApp",
   "license": "MIT"
 }
