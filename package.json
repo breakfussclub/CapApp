@@ -1,16 +1,28 @@
 {
   "name": "truthsync",
   "version": "1.0.0",
-  "description": "Discord fact-checking bot using Google Fact Check API + Perplexity fallback",
+  "description": "Discord fact-check bot using Google Fact Check API + Perplexity AI, fully Railway environment-based.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">=18 <19" 
-  },
   "dependencies": {
-    "discord.js": "14.14.1",
-    "node-fetch": "2.6.11"
-  }
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.6.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "fact-check",
+    "railway",
+    "perplexity",
+    "google-factcheck"
+  ],
+  "author": "Higher-er Learning",
+  "license": "MIT"
 }
