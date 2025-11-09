@@ -1,4 +1,3 @@
-console.log("🚀 File loaded: deploy-commands.js");
 // deploy-commands.js
 import "dotenv/config";
 import { REST, Routes } from "discord.js";
